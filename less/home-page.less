@@ -14,6 +14,14 @@
   
   }
 
+  .splash-image {
+    width: 100%;
+    img {
+      .maxWidth();
+      height: 100%;
+    }
+  }
+
   .space-images {
     display: flex;
     flex-wrap: wrap;
@@ -58,6 +66,17 @@
       }
 
       .btn {
+        color: @wild-sand;
+        .styleBtn(27%, @btn-bg-color);
+        text-align: center;
+        padding: 10px 10px;
+        border-radius: 5px;
+        font-size: 1.4rem;
+
+        &:hover {
+          color: @btn-bg-color;
+          background-color: @wild-sand;
+        }
       }
     }
 
