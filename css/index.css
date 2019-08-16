@@ -175,9 +175,11 @@ p {
   color: #23293B;
   background-color: #F6F6F6;
   padding-bottom: 15px;
+  position: fixed;
+  opacity: 0.9;
 }
 .top-navigation .logo {
-  padding: 15px 0px;
+  margin-top: 30px;
 }
 .top-navigation .logo h1 {
   font-size: 3rem;
@@ -211,6 +213,7 @@ footer {
   padding: 0 15px;
 }
 .home .splash-image {
+  padding-top: 100px;
   width: 100%;
 }
 .home .splash-image img {
